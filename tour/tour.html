@@ -90,9 +90,9 @@
        left: 850px;
     }
     .qui-aside{
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         width:200px;
-        height: 800px;
+        height: 900px;
         background-color: #2b3741;
         position: absolute;
         top: 25px;
@@ -101,7 +101,32 @@
     .liststy{
         list-style: none;
     }
+    .nav-aside{
+        padding: 80px 10px;
+    }
+    .nav-aside a{
+        font-size: 16px;
+        color: white;
+        line-height: 44px;
+        padding-left: 15px;
+        text-decoration: none;
+        display:block;
 
+    }
+    .nav-aside a:hover{
+        color: white;
+        background-color: teal;
+    }
+    .qui-footer{
+        text-align: center;
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .qui-footer a{
+        text-decoration: none;
+        color: #444;
+        margin-left: 60px;
+    }
 </style>
 <body>
     <header class="qui-header">
@@ -143,20 +168,29 @@
         北京 - 常州 - 苏州
         </span> 
     </div>
+    <footer class="qui-footer">
+        <p>
+            <a href="#">手机版</a>
+            <a href="#">电脑版</a>
+            <a href="#">APP版</a>
+        </p>
+    </footer>
     <p class="day1">
         15天
     </p>
     </section>
-
-    <aside class="qui-aside">
-        <ul class="liststy" >
-           <li><a href="">首页</a></li>
-            <li><a href="">目的地</a></li>
-            <li><a href="">酒店</a></li>
-            <li><a href="">机票</a></li>
-            <li><a href="">时间</a></li>
-            <li><a href="">点评</a></li>
-        </ul>
-    </aside>
+      <nav class="nav-aside">
+        <aside class="qui-aside">
+            <ul class="liststy" >
+               <li><a href="">首页</a></li>
+                <li><a href="">目的地</a></li>
+                <li><a href="">酒店</a></li>
+                <li><a href="">机票</a></li>
+                <li><a href="">时间</a></li>
+                <li><a href="">点评</a></li>
+            </ul>
+        </aside>
+      </nav>
+    
     
 </body>
